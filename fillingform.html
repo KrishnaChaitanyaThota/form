@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filling Form</title>
+    <style>
+        #container {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(234, 223, 245);
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+            #submit :hover{
+                cursor: pointer;
+                
+            }
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <table>
+       
+         <div> <tr> <td>Name : </td> 
+         <td> <input id=name type="text" placeholder="name"  > </td>
+         </tr></div>
+
+          <div> <tr> <td>Registration number :</td>
+           <td><input id=reg.no type="text" placeholder="reg.no" ></td>
+           </tr> </div>
+
+          <div><tr> <td> Email :</td>
+          <td> <input id=email type="email" placeholder="email" > </td>
+          </tr> </div>
+
+          <div><tr> <td> Password :</td>
+            <td> <input id=password type="password" placeholder="password" > </td>
+            </tr> </div>
+
+           <div><tr> <td> Age :</td> 
+            <td><input id=age type="number" placeholder="age" min = 1  max = 200 > </td>
+            </tr>  </div>
+
+            <div><tr> <td> DOB :</td> 
+                <td><input id=dob type="date"  > </td>
+                </tr>  </div>
+
+                <tr> <td> Gender :</td>
+                    <td> Male  <input id=gender type="radio" name="gender" > </td>
+                    <td> Female  <input id=gender type="radio" name="gender" > </td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="Submit">Submit</button> </td>
+                        <td><button type="Reset">Reset </button> </td> </td>
+                        </tr>
+
+        </table>
+
+</body>
+
+</html>
